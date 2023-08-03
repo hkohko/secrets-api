@@ -1,7 +1,9 @@
 from secrets import SystemRandom, token_urlsafe
 
+
 def create_instance():
     return SystemRandom()
+
 
 def generate_token(entry: int):
     if entry < 32:
