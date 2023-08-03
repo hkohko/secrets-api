@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from app.generate_password import token
+from app.internals import token
 
 router = APIRouter()
 
