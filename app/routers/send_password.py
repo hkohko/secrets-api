@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from app.internals import token
+from internals import token
 
 router = APIRouter()
 
